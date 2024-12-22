@@ -22,12 +22,7 @@ int main() {
     char ch = 'c';
     char *s = "string";
 
-    int integers[] = {
-        42,
-        123U, 456u, 789L, 101112l, 131415UL, 161718lu, 192021LL, 222324ll, 252627ULL, 282930llu,
-        0xFFu,
-        0777L
-    };
+    int integers[] = { 42, 123U, 456u, 789L, 101112l, 131415UL, 161718lu, 192021LL, 222324ll, 252627ULL, 282930llu, 0xFFu, 0777L };
 
     float floats[] = { 3.14, 1.23F, 4.56f, 7.89L, };
 

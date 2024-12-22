@@ -1,16 +1,4 @@
-use crate::token::{
-    FloatingPointSuffix,
-    IntegerSuffix,
-    NumberBase,
-    NumberKind,
-    NumberSuffix,
-    PositionedToken,
-    Token,
-    TokenLine,
-    KEYWORDS,
-    SYMBOLS
-}; 
-
+use crate::token::*;
 pub struct Lexer {
     input: Vec<char>,
     position: usize,
